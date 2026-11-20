@@ -81,3 +81,17 @@ let myNewArray = myArray.slice (1, 2)
 
 console.log (myArray)
 console.log (myNewArray)
+
+// splice
+// sirve para cambiar el contenido de un array eliminando
+// reemplazando o agregando elementos en una posición específica
+
+myArray.splice (1,3)
+console.log (myArray)
+
+
+myArray = ["Luis", "Flores", "Perzvl", 3, true]
+myArray.splice (1,2, "Nueva Entrada")
+
+console.log (myArray)
+
