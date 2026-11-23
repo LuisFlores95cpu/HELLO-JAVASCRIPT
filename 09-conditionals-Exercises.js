@@ -10,7 +10,7 @@ let password = ("12345")
     if (User != password) {
     console.log ("la contraseña es correcta")
 } else {
-console.log ("el contraseña no es correcta")
+console.log ("la contraseña no es correcta")
 }
 
 // 3. Verifica si un numero es positivo, negativo, o cero e imprime el mensaje
